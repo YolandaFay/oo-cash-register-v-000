@@ -18,6 +18,7 @@ class CashRegister
   
   def apply_discount
     @total *= 1-discount/100 
+    puts "Success message here"
   end
   
 end
