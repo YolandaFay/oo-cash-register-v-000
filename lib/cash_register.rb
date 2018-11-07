@@ -23,7 +23,7 @@ class CashRegister
       puts "No discount to apply"
     else 
       self.total *= 1-@discount/100 
-      puts "Success message here"
+      "Success message here"
     end 
   end
   
