@@ -17,8 +17,12 @@ class CashRegister
   end
   
   def apply_discount
-    @total *= 1-discount/100 
-    puts "Success message here"
+    if @discount == 0 
+      puts "No discount to apply"
+    else 
+      @total *= 1-discount/100 
+      puts "Success message here"
+    end 
   end
   
 end
